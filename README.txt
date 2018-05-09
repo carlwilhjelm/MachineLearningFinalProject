@@ -1,0 +1,5 @@
+Final project from CSci 4980. This program comes in two parts. Part 1 provides training data and training labels along with a test data whereby we are to use the training data and labels in an attempt to produce labels for the test data. Part 2 provides a single set of data with many missing fields from which we are to generate values for the missing data. All data has been included. 
+
+Both programs in part 1 are independently operable. They take arguments for file paths in the form of "TrainData4.txt TrainLabel4.txt TestData4.txt". I switched between KNN and Random Forest methods for my results, and altered some paramaters to obtain optimum results with a variance of generally less than 5%. Which file was used is indicated in the title of the results file. There is a single line of code for Train Data 3 which must be uncommented because it is delimited with commas. 
+
+The program in part 2 consists of a main and helper file. Takes a single argument of the data file. In larger datasets this one can take a bit longer. Dataset 2 took about 15 minutes to complete. Updates are printed out to show how far along it is.  
